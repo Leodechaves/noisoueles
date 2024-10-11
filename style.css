@@ -47,3 +47,37 @@ h3 {
 .cartao.active .cartao__conteudo__resposta {
     display: block;
 }
+
+.cartao {
+    background-color: #4b0082; /* roxo escuro */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+
+.cartao:hover {
+    transform: scale(1.05);
+}
+
+.cartao__conteudo {
+    padding: 20px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.cartao__conteudo__pergunta {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.cartao__conteudo__resposta {
+    display: none;
+}
+
+.cartao.active .cartao__conteudo__resposta {
+    display: block;
+}
